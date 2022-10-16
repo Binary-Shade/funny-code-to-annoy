@@ -25,5 +25,5 @@ def qns():
 	else:
 		print("no")
 		sp.call('zenity --error --text "im going to die ! good bye"', shell=True)
-		#sp.call('init 0', shell=True)
+		sp.call('init 0', shell=True)
 qns()
